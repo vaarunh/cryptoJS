@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INR - Realtime Cryto Rates in INR</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class="px-4 py-5 my-5 text-center">
+        <i class="fab fa-bitcoin fa-5x"></i>
+        <h1 class="display-5 fw-bold">Realtime Crypto Rates in INR</h1>
+        <br/>
+        <div class="col-lg-6 mx-auto">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><i class="fa-solid fa-angles-left"></i> Back To Home Page</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i class="fa-solid fa-dollar-sign"></i> View Prices in USD</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <table class="table table-bordered table-group-divider table-hover table-bordered table-responsive">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Coin Name</th>
+                    <th>Coin Symbol</th>
+                    <th>Current Price in INR</th>
+                    <th>Last 24 Hour Change</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bitcoin</td>
+                    <td>BTC</td>
+                    <td>Rs.<span id="bitcoin"></span>/-</td>
+                    <td><span id="bitcoin_change"></span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Peter</td>
+                    <td>Parker</td>
+                    <td>Rs.<span id="litecoin"></span>/-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John</td>
+                    <td>Carter</td>
+                    <td>johncarter@mail.com</td>
+                </tr>                    
+            </tbody>
+        </table>
+      </div>
+  
+    <nav class="navbar bottom bg-dark">
+      <div class="container-fluid">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=vaarunh&repo=CryptoJS&type=star&count=true&size=large"
+          frameborder="0"
+          scrolling="0"
+          width="170"
+          height="30"
+          title="GitHub"
+        ></iframe>
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=vaarunh&type=follow&count=true&size=large"
+          frameborder="0"
+          scrolling="0"
+          width="170"
+          height="30"
+          title="GitHub"
+        ></iframe>
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=vaarunh&repo=CryptoJS&type=fork&count=true&size=large"
+          frameborder="0"
+          scrolling="0"
+          width="170"
+          height="30"
+          title="GitHub"
+        ></iframe>
+      </div>
+    </nav>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/5235f9bb5b.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="./js/inr.js"></script>
+</html>
