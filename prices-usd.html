@@ -17,15 +17,15 @@
   <body>
     <div class="px-4 py-5 my-5 text-center">
       <i class="fab fa-bitcoin fa-5x"></i>
-      <h1 class="display-5 fw-bold">Realtime Crypto Rates in INR</h1>
+      <h1 class="display-5 fw-bold">Realtime Crypto Rates in USD</h1>
       <br />
       <div class="col-lg-6 mx-auto">
-        <a href="./index.html"><div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="./index.html"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">
             <i class="fa-solid fa-angles-left"></i> Back To Home Page
-          </button></a> 
-          <a href="./prices-usd.html"> <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            <i class="fa-solid fa-dollar-sign"></i> View Prices in USD
+          </button></a>
+          <a href="./prices-inr.html"><button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            <i class="fa-solid fa-indian-rupee-sign"></i> View Prices in INR
           </button></a>
         </div>
       </div>
@@ -39,7 +39,7 @@
             <th>#</th>
             <th>Coin Name</th>
             <th>Coin Symbol</th>
-            <th>Current Price in INR</th>
+            <th>Current Price in USD</th>
             <th>Last 24 Hour Change</th>
           </tr>
         </thead>
@@ -48,21 +48,21 @@
             <td>1</td>
             <td>Bitcoin</td>
             <td>BTC</td>
-            <td>Rs.<span id="bitcoin"></span>/-</td>
+            <td>$<span id="bitcoin"></span></td>
             <td><span id="bitcoin_change"></span></td>
           </tr>
           <tr>
             <td>2</td>
             <td>LiteCoin</td>
             <td>LTC</td>
-            <td>Rs.<span id="litecoin"></span>/-</td>
+            <td>$<span id="litecoin"></span></td>
             <td><span id="litecoin_change"></span></td>
           </tr>
           <tr>
             <td>3</td>
             <td>Ethereum</td>
             <td>ETH</td>
-            <td>Rs.<span id="ethereum"></span>/-</td>
+            <td>$<span id="ethereum"></span></td>
             <td><span id="ethereum_change"></span></td>
           </tr>
 
@@ -70,7 +70,7 @@
             <td>4</td>
             <td>Solana</td>
             <td>SOL</td>
-            <td>Rs.<span id="solana"></span>/-</td>
+            <td>$<span id="solana"></span></td>
             <td><span id="solana_change"></span></td>
           </tr>
 
@@ -78,7 +78,7 @@
             <td>5</td>
             <td>Cardano</td>
             <td>ADA</td>
-            <td>Rs.<span id="cardano"></span>/-</td>
+            <td>$<span id="cardano"></span></td>
             <td><span id="cardano_change"></span></td>
           </tr>
           
@@ -87,7 +87,7 @@
             <td>6</td>
             <td>Uniswap</td>
             <td>UNI</td>
-            <td>Rs.<span id="uniswap"></span>/-</td>
+            <td>$<span id="uniswap"></span></td>
             <td><span id="uniswap_change"></span></td>
           </tr>
 
@@ -97,7 +97,7 @@
             <td>7</td>
             <td>Ripple</td>
             <td>XRP</td>
-            <td>Rs.<span id="ripple"></span>/-</td>
+            <td>$<span id="ripple"></span></td>
             <td><span id="ripple_change"></span></td>
           </tr>
         </tbody>
@@ -138,5 +138,5 @@
     crossorigin="anonymous"
   ></script>
 
-  <script src="./js/inr.js"></script>
+  <script src="./js/usd.js"></script>
 </html>
