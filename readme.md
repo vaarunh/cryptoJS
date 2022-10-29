@@ -3,7 +3,7 @@
 A WebProject built using HTML, Bootstrap & JavaScript framework helps to get realtime crypto prices in local currency i.e Indian Rupees(INR). **Powered by CoinGecko Web API**
 
 #  Site Demo 
-** Demo Link:** (cryptojs.vercel.app)
+**Demo Link:** [cryptojs.vercel.app](cryptojs.vercel.app)
 
 
 # Technologies Used
