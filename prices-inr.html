@@ -13,56 +13,97 @@
       crossorigin="anonymous"
     />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
   </head>
   <body>
     <div class="px-4 py-5 my-5 text-center">
-        <i class="fab fa-bitcoin fa-5x"></i>
-        <h1 class="display-5 fw-bold">Realtime Crypto Rates in INR</h1>
-        <br/>
-        <div class="col-lg-6 mx-auto">
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><i class="fa-solid fa-angles-left"></i> Back To Home Page</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i class="fa-solid fa-dollar-sign"></i> View Prices in USD</button>
-          </div>
+      <i class="fab fa-bitcoin fa-5x"></i>
+      <h1 class="display-5 fw-bold">Realtime Crypto Rates in INR</h1>
+      <br />
+      <div class="col-lg-6 mx-auto">
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+            <i class="fa-solid fa-angles-left"></i> Back To Home Page
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            <i class="fa-solid fa-dollar-sign"></i> View Prices in USD
+          </button>
         </div>
       </div>
+    </div>
 
-      <div class="container">
-        <table class="table table-bordered table-group-divider table-hover table-bordered table-responsive">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Coin Name</th>
-                    <th>Coin Symbol</th>
-                    <th>Current Price in INR</th>
-                    <th>Last 24 Hour Change</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Bitcoin</td>
-                    <td>BTC</td>
-                    <td>Rs.<span id="bitcoin"></span>/-</td>
-                    <td><span id="bitcoin_change"></span></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Peter</td>
-                    <td>Parker</td>
-                    <td>Rs.<span id="litecoin"></span>/-</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>John</td>
-                    <td>Carter</td>
-                    <td>johncarter@mail.com</td>
-                </tr>                    
-            </tbody>
-        </table>
-      </div>
+    <div class="container ">
+      <table
+        class="table table-bordered table-group-divider table-hover table-bordered table-responsive my-5">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Coin Name</th>
+            <th>Coin Symbol</th>
+            <th>Current Price in INR</th>
+            <th>Last 24 Hour Change</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bitcoin</td>
+            <td>BTC</td>
+            <td>Rs.<span id="bitcoin"></span>/-</td>
+            <td><span id="bitcoin_change"></span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>LiteCoin</td>
+            <td>LTC</td>
+            <td>Rs.<span id="litecoin"></span>/-</td>
+            <td><span id="litecoin_change"></span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Ethereum</td>
+            <td>ETH</td>
+            <td>Rs.<span id="ethereum"></span>/-</td>
+            <td><span id="ethereum_change"></span></td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Solana</td>
+            <td>SOL</td>
+            <td>Rs.<span id="solana"></span>/-</td>
+            <td><span id="solana_change"></span></td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>Cardano</td>
+            <td>ADA</td>
+            <td>Rs.<span id="cardano"></span>/-</td>
+            <td><span id="cardano_change"></span></td>
+          </tr>
+          
+
+          <tr>
+            <td>6</td>
+            <td>Uniswap</td>
+            <td>UNI</td>
+            <td>Rs.<span id="uniswap"></span>/-</td>
+            <td><span id="uniswap_change"></span></td>
+          </tr>
+
   
+
+          <tr>
+            <td>7</td>
+            <td>Ripple</td>
+            <td>XRP</td>
+            <td>Rs.<span id="ripple"></span>/-</td>
+            <td><span id="ripple_change"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
     <nav class="navbar bottom bg-dark">
       <div class="container-fluid">
         <iframe
