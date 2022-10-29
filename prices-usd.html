@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INR - Realtime Cryto Rates in INR</title>
+    <title>USD - Realtime Cryto Rates in USD</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -20,11 +20,11 @@
       <h1 class="display-5 fw-bold">Realtime Crypto Rates in USD</h1>
       <br />
       <div class="col-lg-6 mx-auto">
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <a href="./index.html"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+        <a href="./index.html"><div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
             <i class="fa-solid fa-angles-left"></i> Back To Home Page
-          </button></a>
-          <a href="./prices-inr.html"><button type="button" class="btn btn-outline-secondary btn-lg px-4">
+          </button></a> 
+          <a href="./prices-inr.html"> <button type="button" class="btn btn-outline-secondary btn-lg px-4">
             <i class="fa-solid fa-indian-rupee-sign"></i> View Prices in INR
           </button></a>
         </div>
@@ -46,21 +46,21 @@
         <tbody>
           <tr>
             <td>1</td>
-            <td>Bitcoin</td>
+            <td><img src="./img/logos/btc.png" width="20px"> Bitcoin</td>
             <td>BTC</td>
             <td>$<span id="bitcoin"></span></td>
             <td><span id="bitcoin_change"></span></td>
           </tr>
           <tr>
             <td>2</td>
-            <td>LiteCoin</td>
+            <td><img src="./img/logos/ltc.jpg" width="20px"> LiteCoin</td>
             <td>LTC</td>
             <td>$<span id="litecoin"></span></td>
             <td><span id="litecoin_change"></span></td>
           </tr>
           <tr>
             <td>3</td>
-            <td>Ethereum</td>
+            <td><img src="./img/logos/eth.png" width="15px"> Ethereum</td>
             <td>ETH</td>
             <td>$<span id="ethereum"></span></td>
             <td><span id="ethereum_change"></span></td>
@@ -68,7 +68,7 @@
 
           <tr>
             <td>4</td>
-            <td>Solana</td>
+            <td><img src="./img/logos/sol.png" width="20px"> Solana</td>
             <td>SOL</td>
             <td>$<span id="solana"></span></td>
             <td><span id="solana_change"></span></td>
@@ -76,7 +76,7 @@
 
           <tr>
             <td>5</td>
-            <td>Cardano</td>
+            <td><img src="./img/logos/ada.png" width="20px"> Cardano</td>
             <td>ADA</td>
             <td>$<span id="cardano"></span></td>
             <td><span id="cardano_change"></span></td>
@@ -85,7 +85,7 @@
 
           <tr>
             <td>6</td>
-            <td>Uniswap</td>
+            <td><img src="./img/logos/uni.png" width="30px">Uniswap</td>
             <td>UNI</td>
             <td>$<span id="uniswap"></span></td>
             <td><span id="uniswap_change"></span></td>
@@ -95,7 +95,7 @@
 
           <tr>
             <td>7</td>
-            <td>Ripple</td>
+            <td><img src="./img/logos/xrp.png" width="20px"> Ripple</td>
             <td>XRP</td>
             <td>$<span id="ripple"></span></td>
             <td><span id="ripple_change"></span></td>
@@ -138,5 +138,5 @@
     crossorigin="anonymous"
   ></script>
 
-  <script src="./js/usd.js"></script>
+  <script src="./js/USD.js"></script>
 </html>
